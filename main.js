@@ -16,6 +16,10 @@ stack.prototype = {
 
 	peek: function(){
 		return this.elements[this.elements.length - 1];
+	},
+
+	isEmpty: function(){
+		return this.elements.length === 0 ? true : false;
 	}
 
 }
