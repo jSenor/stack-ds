@@ -1,0 +1,28 @@
+{
+  "name": "stack-ds",
+  "version": "1.0.0",
+  "description": "A complete stack implementation",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jSenor/stack-ds.git"
+  },
+  "keywords": [
+    "stack",
+    "stacks",
+    "data-structure",
+    "parser",
+    "shunting",
+    "yard",
+    "queues"
+  ],
+  "author": "jSenor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jSenor/stack-ds/issues"
+  },
+  "homepage": "https://github.com/jSenor/stack-ds#readme"
+}
