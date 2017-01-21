@@ -13,7 +13,7 @@ numbers.push(2, 3, 4, 5, 7);
 console.log(numbers) // [1, 2, 3, 4, 5, 7];
 
 numbers.pop();
-console.log(numbers) //[1, 2, 3, 4, 5, 6];
+console.log(numbers) //[1, 2, 3, 4, 5];
 
 numbers.isEmpty() //false
 numbers.empty();
