@@ -13,3 +13,10 @@ console.log(numbers) // [1, 2, 3, 4, 5, 7];
 
 numbers.pop();
 console.log(numbers) //[1, 2, 3, 4, 5, 6];
+
+numbers.isEmpty() //false
+numbers.empty();
+numbers.isEmpty() // true
+
+numbers.push(8, 9, 10);
+console.log(numbers.peek()) //10
