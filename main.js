@@ -20,10 +20,14 @@ stack.prototype = {
 
 	getArray: function(){
 		return this.elements;
-	}
+	},
 
 	isEmpty: function(){
 		return this.elements.length === 0 ? true : false;
+	},
+
+	toString: function(){
+		return "" + this.getArray();
 	}
 
 }
