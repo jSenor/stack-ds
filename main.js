@@ -26,6 +26,10 @@ stack.prototype = {
 		return this.elements.length === 0 ? true : false;
 	},
 
+	empty: function(){
+		this.elements = [];
+	},
+
 	toString: function(){
 		return "" + this.getArray();
 	}
