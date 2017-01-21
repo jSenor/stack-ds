@@ -1,2 +1,2 @@
 # stack-ds
-A complete implementation of the stack data structure
+A complete implementation of the stack data structure :-)
