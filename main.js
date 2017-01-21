@@ -18,6 +18,10 @@ stack.prototype = {
 		return this.elements[this.elements.length - 1];
 	},
 
+	getArray: function(){
+		return this.elements;
+	}
+
 	isEmpty: function(){
 		return this.elements.length === 0 ? true : false;
 	}
